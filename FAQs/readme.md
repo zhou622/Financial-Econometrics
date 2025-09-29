@@ -37,4 +37,4 @@ PERSONAL:  D:/stata/personal\     // 个人文件夹
 
 - 顾小龙, 连玉君, 2020, [Stata帮助和网络资源汇总](https://www.lianxh.cn/details/187.html)
 - 游万海, 连玉君, 2019, [Stata: 外部命令的搜索、安装与使用](https://www.lianxh.cn/details/1.html)
-- 连享会, 2020, [连享会：论文重现复现网站大全](https://www.lianxh.cn/details/232.html)
+- 连享会, 2020, [连享会：论文重现复现网站大全](https://www.lianxh.cn/details/232.html)  
