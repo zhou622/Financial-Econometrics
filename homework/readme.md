@@ -18,6 +18,8 @@
 
 ## 1. 作业要求
 
+> 有些作业要求使用 VScode 编辑器中的 Jupyter Notebook 来完成。如果你还没有安装和配置好 Python 运行环境，请参照讲义 [3  Python：安装和环境配置](https://lianxhcn.github.io/research_with_AI/body/01_install_Python_Anaconda.html) 中的说明，安装必要软件和插件，配置好 Python 运行环境。详细说明参见下方第 3 小节。
+
 ### 1.1 格式要求
 
 1. 在呈现公式、代码和图表之前，务必插入一个 Markdown 单元格，写明你要做什么。呈现完后，再插入一个 Markdown 单元格，解释结果。数学公式中的变量和参数在首次出现时，请务必给出定义。
@@ -48,9 +50,6 @@
     ├── 02_EDA_analysis.ipynb
     └── 03_xxx_xxx.ipynb
     ```
-
-
-
 
 ---
 
@@ -87,11 +86,14 @@
 
 虽然这门课主要使用 Stata 软件，但为了便于大家使用 AI 工具和生成图形等，我们建议大家安装并配置好 Python 运行环境，以便在 VScode 中运行 Stata 命令，并使用 `github copilot` 等 AI 工具辅助完成作业。
 
-> **安装指南：** 请认真阅读 [3  Python：安装和环境配置](https://lianxhcn.github.io/research_with_AI/body/01_install_Python_Anaconda.html) 中的说明，安装必要软件和插件，配置好 Python 运行环境。
+> **安装指南：** 
+
+1. **第一步：** 请认真阅读 [3  Python：安装和环境配置](https://lianxhcn.github.io/research_with_AI/body/01_install_Python_Anaconda.html) 中第 3.1 和 3.2 小节的说明，安装必要软件和插件，配置好 Python 运行环境。
+2. **第二步：** 参照 [3  Python：安装和环境配置](https://lianxhcn.github.io/research_with_AI/body/01_install_Python_Anaconda.html) 中 [第 3.3 小节 - 配置 Stata 环境：nbstata](https://lianxhcn.github.io/research_with_AI/body/01_install_Python_Anaconda.html#%E9%85%8D%E7%BD%AE-stata-%E7%8E%AF%E5%A2%83nbstata) 中的说明，配置好 Stata 运行环境，以便在 VScode 中运行 Stata 命令。
 
 **注意：**
 
-1. 为了确保能在 VScode 中运行 Stata 命令，建议安装我在课程群置顶群公告中提供的 Stata 17 软件。当然，如果你有其他版本的 Stata 软件，也可以尝试使用。基本原则是：无论你安装哪个版本的 Stata，最终在 Stata 安装目录下一定要有许可证文件 `STATA.LIC`。
+1. 为了确保能在 VScode 中运行 Stata 命令，建议安装我在课程群置顶群公告中提供的 Stata 17 软件 (这是一个正版软件)。当然，如果你有其他版本的 Stata 软件，也可以尝试使用。**基本原则是**：无论你安装哪个版本的 Stata，最终在 Stata 安装目录下一定要有许可证文件 `STATA.LIC`，否则 `nbstata` 将无法与你的 Stata 软件关联，也就无法在 VScode 中的 `.ipynb` 文件中运行 Stata 命令。
    
 2. 安装 Stata 时，建议选择“典型安装”选项，以确保安装所有必要组件。同时，请注意安装路径中不要包含空格或特殊字符，以避免后续配置中的路径问题。我的安装路径是：`D:/stata17`。
 
