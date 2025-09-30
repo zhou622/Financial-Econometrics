@@ -98,3 +98,5 @@
    
 2. 安装 Stata 时，建议选择“典型安装”选项，以确保安装所有必要组件。同时，请注意安装路径中不要包含空格或特殊字符，以避免后续配置中的路径问题。我的安装路径是：`D:/stata17`。
 
+3. 安装中的一些常见问题，可以参考倪露同学写的笔记：[How to create a Stata code cell_by NiLu](../FAQs/How-to-create-a-Stata-code-cell_by-NiLu.md)
+

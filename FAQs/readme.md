@@ -2,6 +2,13 @@
 
 这里记录了一些课程中经常被问及的问题，包括 Stata 软件的安装，帮助的获取；Python 的安装和使用等。 
 
+### Python 环境配置
+
+#### 1. 如何在 VScode 中运行 Stata 代码？
+
+- 请参照 [3  Python：安装和环境配置](https://lianxhcn.github.io/research_with_AI/body/01_install_Python_Anaconda.html) 中的说明，安装并配置好 Python 运行环境，以便在 VScode 中运行 Stata 命令。
+- 安装中的一些常见问题，可以参考倪露同学写的笔记：[How to create a Stata code cell_by NiLu](How-to-create-a-Stata-code-cell_by-NiLu.md)
+
 ### Stata 相关
 
 #### 1. 我没有 `profile.do` 文档，怎么办？
