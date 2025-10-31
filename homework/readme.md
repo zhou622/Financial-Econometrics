@@ -10,7 +10,7 @@
 
 - 作业发布：[hw-04.md](hw-04.md)
   - 提交截止时间：2025 年 11 月 11 日 23:59
-  - 注意：做作业之前，请先阅读并理解 [hw-04-comments.ipynb](homework-commnents/hw-04-comments.ipynb) 中的建议和要求。
+  - 注意：做作业之前，请先阅读并理解 [hw-04-comments.ipynb](../homework-comments/hw-04-comments.ipynb) 中的建议和要求。
 - 作业发布：[hw-05.md](hw-05.md)
   - 提交截止时间：2025 年 11 月 17 日 23:59
 
