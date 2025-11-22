@@ -8,14 +8,15 @@
 
 ## News
 
+- 作业发布：[hw-06.md](hw-06.md)
+  - 提交截止时间：2025 年 11 月 30 日 23:59
+
+---
+- 作业发布：[hw-05.md](hw-05.md)
+  - 提交截止时间：2025 年 11 月 17 日 23:59
 - 作业发布：[hw-04.md](hw-04.md)
   - 提交截止时间：2025 年 11 月 11 日 23:59
   - 注意：做作业之前，请先阅读并理解 [hw-04-comments.ipynb](../homework-comments/hw-04-comments.ipynb) 中的建议和要求。
-- 作业发布：[hw-05.md](hw-05.md)
-  - 提交截止时间：2025 年 11 月 17 日 23:59
-
----
-
 - 作业发布：[hw-03.md](hw-03.md)
   - 提交截止时间：2025 年 10 月 14 日 23:59
 - 作业发布：[hw-01.md](hw-01.md), [hw-02.md](hw-02.md)
@@ -27,14 +28,35 @@
 
 ## 1. 作业要求
 
-> 有些作业要求使用 VScode 编辑器中的 Jupyter Notebook 来完成。如果你还没有安装和配置好 Python 运行环境，请参照讲义 [3  Python：安装和环境配置](https://lianxhcn.github.io/research_with_AI/body/01_install_Python_Anaconda.html) 中的说明，安装必要软件和插件，配置好 Python 运行环境。详细说明参见下方第 3 小节。
+### 1.1 撰写环境：VScode + Jupyter Notebook
+
+请在 VScode 编辑器中使用 Jupyter Notebook 来撰写作业，并提交 `.ipynb` 文件。
+
+1. 安装和配置 Python 运行环境：参见 [3  Python：安装和环境配置](https://lianxhcn.github.io/research_with_AI/body/01_install_Python_Anaconda.html)。注意：请务必安装 [nbstata 插件](https://lianxhcn.github.io/research_with_AI/body/01_install_Python_Anaconda.html#%E9%85%8D%E7%BD%AE-stata-%E7%8E%AF%E5%A2%83nbstata)，以便运行 Stata 代码。
+2. `.ipynb` 文档的创建和编写：参见 [4  使用 Jupyter Notebook](https://lianxhcn.github.io/research_with_AI/body/01_use_Jupyter_Notebook.html)。
 
 ### 1.1 体例要求
 
 1. 在呈现公式、代码和图表之前，务必插入一个 Markdown 单元格，写明你要做什么。呈现完后，再插入一个 Markdown 单元格，解释结果。数学公式中的变量和参数在首次出现时，请务必给出定义。
 
+## 代码结构和头部设定
+
+做作业之前，请先阅读并理解 [hw-04-comments.ipynb](../homework-comments/hw-04-comments.ipynb) 中的建议和要求。
+
+- 在代码块的开头，设置项目根目录和其他相对路径；
+- 若使用了外部命令，要设定一个代码块，安装和加载这些命令；
+- 图形模板和输出格式的设定，也要放在代码块的开头。
+
 ### 3.2 代码单元规范
-- 一格一事：每个 code cell 只完成一个清晰目标（如“导入数据”“画图 1”）。
+
+在 Jupyter Notebook 中，可以通过插入多个代码单元 (code cell) 来组织代码。请遵守以下规范：
+
+每个分析任务由三个单元格构成：
+  - 上：一个 Markdown 文本块，介绍你的分析目的、思路，数据生成过程等
+  - 中：一个 Stata/Python 代码块，编写代码，添加必要的注释；运行代码，并呈现输出结果
+  - 下：一个 Markdown 文本块，解释上一个代码块中输出的结果。
+
+- 一格一事：每个 code cell 只完成一个清晰目标（如“导入数据”、“绘制密度函数图”、“结果解读”）。
 - 代码前后配文字解释：写清“目的—做法—发现—含义”。
 - 加中文注释，标明变量含义、口径与单位。
 - 设随机种子与记录版本，保证可复现。
@@ -44,12 +66,14 @@
 
 #### 1.2 格式要求
 
-1. **文件格式**：请使用 Jupyter Notebook (`.ipynb`) 格式撰写和提交作业。你可以在 VScode 编辑器中创建和编辑 `.ipynb` 文件，并使用 Quarto 进行渲染和编译。如果你不熟悉 Jupyter Notebook 的使用，可以参考讲义 [1  使用 Jupyter Notebook](https://lianxhcn.github.io/research_with_AI/body/01_use_Jupyter_Notebook.html) 中的相关说明。
+1. **文件格式**：请使用 Jupyter Notebook (`.ipynb`) 格式撰写和提交作业。
 
-3. 对于数学公式，请使用 LaTeX 语法，并将公式放在美元符号 `$...$` (行内公式) 或 `$$...$$` (独立成行的公式) 之间。独立成行的公式上下方请空一行。
-4. 中英文混排时，加空格。例如，`我从 2003 年开始用 Stata 写代码。` 
-5. 讲义中的所有圆括号都写为半角模式，即 `Hansen (2025)`，而不是 `Hansen（2025）`。
-6. **图片尽量使用图床**。(1) 你可以在你自己的 github 账号下，新建一个仓库，上传图片，然后在 Markdown 单元格中使用 `![](图片链接)` 的格式插入图片；(2) 你也可以使用连享会的图床，详情参见 [连享会 PicGo 图床配置](https://github.com/arlionn/lianxhta/wiki/lianxh_PicGo) (图床密码可以发私信向连老师索取)。
+2. 对于数学公式，请使用 LaTeX 语法，并将公式放在美元符号 `$...$` (行内公式) 或 `$$...$$` (独立成行的公式) 之间。独立成行的公式上下方请空一行。
+3. 中英文混排时，加空格。例如，`我从 2003 年开始用 Stata 写代码。` 
+4. 讲义中的所有圆括号都写为半角模式，即 `Hansen (2025)`，而不是 `Hansen（2025）`。
+5. **图片尽量使用图床**。(1) 你可以在你自己的 github 账号下，新建一个仓库，上传图片，然后在 Markdown 单元格中使用 `![](图片链接)` 的格式插入图片；(2) 你也可以使用连享会的图床，详情参见 [连享会 PicGo 图床配置](https://github.com/arlionn/lianxhta/wiki/lianxh_PicGo) (图床密码可以发私信向连老师索取)。
+
+#### 1.
 
 ### 1.3 提交的资料类型
 
