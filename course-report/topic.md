@@ -350,7 +350,7 @@ psacalc delta pc2, rmax(0.40) beta(0) model(areg quality pc2 teacher_gender teac
 
 # T19. Duchin-2024-JF
 
-- Duchin, R., Gao, J., & Xu, Q. (2024). Sustainability or Greenwashing: Evidence from the Asset Market for Industrial Pollution. **The Journal of Finance**, 80(2), 699–754. Portico. [Link](https://doi.org/10.1111/jofi.13412) (rep), [PDF](https://onlinelibrary.wiley.com/doi/epdf/10.1111/jofi.13412), [Google](<https://scholar.google.com/scholar?q=Sustainability or Greenwashing: Evidence from the Asset Market for Industrial Pollution.>). [-Appendix-](https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2Fjofi.13412&file=jofi13412-sup-0001-InternetAppendix.pdf), [Replication](https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2Fjofi.13412&file=jofi13412-sup-0002-ReplicationCode.zip) (195M).
+- Duchin, R., Gao, J., & Xu, Q. (2024). Sustainability or Greenwashing: Evidence from the Asset Market for Industrial Pollution. **The Journal of Finance**, 80(2), 699–754. Portico. [Link](https://doi.org/10.1111/jofi.13412) (rep), [PDF](https://file-lianxh.oss-cn-shenzhen.aliyuncs.com/Refs/cRefs/Duchin_2024_JF_Sustainability_or_Greenwashing.pdf), [Google](<https://scholar.google.com/scholar?q=Sustainability or Greenwashing: Evidence from the Asset Market for Industrial Pollution.>). [-Appendix-](https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2Fjofi.13412&file=jofi13412-sup-0001-InternetAppendix.pdf), [Replication](https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2Fjofi.13412&file=jofi13412-sup-0002-ReplicationCode.zip) (195M).
 - 方法：
   - 多期 DID
   - `mlogit`: Multi-logit choice model 
