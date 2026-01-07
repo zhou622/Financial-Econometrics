@@ -2,9 +2,11 @@
 
 Course webstie of Financial Econometrics. Given by Yujun Lian.
 
-## 作业
+## 
 
-> [点击查看](homework/readme.md)
+- **课程报告**： [点击查看](course-report/report-guide.md)，update：`2026.1.7`
+- **作业**： [点击查看](homework/readme.md)
+
 
 ## FAQs 和 讨论
 
