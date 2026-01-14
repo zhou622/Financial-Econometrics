@@ -33,7 +33,7 @@
 3. **图片名称和图片上传**。
    - 课程报告中出现的所有图片都按此规则命名：【`Author-Year-Fig#-图片简称-作者姓名.png`】 (或 jpg)。例如，【`Tian-2024-Fig01-ttest-连小白.png`】
    - 所有图片必须使用 **2.3 设定 PicGo 图床** 中介绍的方法上传到 lianxh.cn 图床，并使用该图床的链接插入到报告中。&#x1F34F;：未按要求上传图片的报告将被退回修改，我也会酌情扣分 (5-10 分)。
-
+4. 格式方面、用语、参考文献的写法等方面，可以参考提示词 [empirical-paper-keynotes-Prompt](<https://github.com/lianxhcn/myprompt/blob/main/body/empirical-paper-keynotes-Prompt.md>)，从中抽取有用的信息。把你们的 .md 发给 AI，使用我提供的提示词修改、优化一下现有推文。
 
 
 ![](https://fig-lianxh.oss-cn-shenzhen.aliyuncs.com/Lianxh_装饰黄线.png)
